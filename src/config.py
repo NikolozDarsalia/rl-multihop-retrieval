@@ -26,8 +26,8 @@ DATASET_SUBSET = (
 # --- Corpus scope (the Step 0 decision: bounded global pooled corpus) ---
 # Start on the slice you profiled in the EDA, then raise these once the
 # pipeline runs end to end. Set to None to use the full split.
-N_TRAIN_QUESTIONS = 2000
-N_VAL_QUESTIONS = 500
+N_TRAIN_QUESTIONS = None
+N_VAL_QUESTIONS = None
 
 SEED = 199806
 
