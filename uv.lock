@@ -1892,7 +1892,7 @@ wheels = [
 [[package]]
 name = "rl-graph-rag-retrieval"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "datasets" },
     { name = "huggingface-hub" },

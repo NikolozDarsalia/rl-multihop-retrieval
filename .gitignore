@@ -5,9 +5,17 @@ build/
 dist/
 wheels/
 *.egg-info
+.ipynb_checkpoints/
+.DS_Store
 
 # Virtual environments
 .venv
 
 # tokens
 tokens/
+ 
+# data + built artifacts are reproducible from code; don't commit them
+data/
+ 
+# keep the model/HF cache out of the repo
+.cache/
