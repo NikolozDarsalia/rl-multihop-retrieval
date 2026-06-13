@@ -6,10 +6,20 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "datasets>=4.8.5",
+    "flagembedding>=1.4.0",
+    "hdbscan>=0.8.44",
     "huggingface-hub>=1.17.0",
     "matplotlib>=3.10.9",
+    "nbformat>=5.10.4",
+    "numpy>=2.4.6",
     "pandas>=3.0.3",
+    "plotly>=6.8.0",
+    "scikit-fuzzy>=0.5.0",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
     "sentence-transformers>=5.5.1",
+    "spherecluster>=0.1.7",
+    "umap-learn>=0.5.12",
 ]
 
 [dependency-groups]
